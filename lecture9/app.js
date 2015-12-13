@@ -1,10 +1,8 @@
-// MODULE
-var angularApp = angular.module('angularApp', []);
+// Module - String Matches ng-app in html
+var myApp = angular.module('myApp', []);
 
-// CONTROLLERS
-angularApp.controller('mainController', ['$scope', function ($scope) {
+// Controller
+myApp.controller('mainController', function() {
     
-}]);
-
-
+});
 
